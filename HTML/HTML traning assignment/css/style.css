@@ -1,0 +1,293 @@
+#mypage{
+    background-color: #FAFAFA;
+}
+#rowid{
+    height: 100%;
+    width: 100%;
+}
+#mainimg{
+    border: 20px solid #FFFFFF;
+    border-radius: 50%;
+    width: 100%;
+    margin: auto;
+}
+#mainp{
+    text-decoration: solid;
+    color: #3E3E3E;
+    font-weight: bold;
+}
+#mainspan{
+    color: #C8242F;
+}
+#maintask{
+    font: normal normal normal 25px/33px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+#username-text{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+#inputPassword5, #inputUsername{
+    width: 50%;
+}
+#login{
+    background: #C8242F 0% 0% no-repeat padding-box;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border-radius: 23px;
+    width: 138px;
+}
+#forgot{
+    text-decoration: none;
+    color: #ADADAD;
+}
+#info{
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    color: #ADADAD;
+}
+#register{
+    text-decoration: none;
+    color: #C8242F;
+}
+#searchicon{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+}
+#dheader{
+    height: 80px;
+}
+#ddropdown{
+    color: #000000;
+    background-color: white;
+    border:0px;
+}
+#dsearch{
+    border: 0px;
+}
+#dsecondcontainer{
+    height: 100%;
+    width: 100%;
+}
+#dlayer1{
+    height: 100%;
+}
+#dlayer2{
+    background-color: #FAFAFA;
+    height: 100%;
+}
+#dselected{
+    letter-spacing: 0px;
+    color: #C8242F;
+    background-color: #FFF3F4;
+    max-width: 100%;
+}
+#red{
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+}
+#green{
+    background: #A2B86C 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+}
+#orange{
+    background: #F16C20 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+}
+#yellow{
+    background: #EBC844 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+}
+#star, #add, #total, #dollar, #bag{
+    width: 33px;
+    height: 33px;
+}
+#viewall{
+    text-decoration: none !important;
+    font: normal normal normal 12px/16px Roboto;
+    color: #C8242F;
+}
+#paid1, #paid2, #paid3, #paid4, #paid5, #paid6{
+    color: #3CDD5F;
+    background-color: #EBFFEF;
+    font: normal normal normal 15px/20px Roboto;
+    border: none;
+}
+#failed1, #failed2{
+    color: #FF4545;
+    background-color: #FFF5F5;
+    font: normal normal normal 15px/20px Roboto;
+    border: none;
+}
+#pending{
+    color: #BABABA;
+    background-color: #F8F8F8;
+    font: normal normal normal 15px/20px Roboto;
+    border: none;
+}
+#acontainer{
+    background-color: #FFFFFF;
+}
+#adisabled{
+    border: dashed;
+    border-color: #ADADAD;
+}
+#alert1{
+    border: 1px solid #FF3535;
+    opacity: 1;
+    color: #FF3535;
+}
+#alert2{
+    border: 1px solid #00B9E1;
+    opacity: 1;
+    color: #00B9E1;
+}
+#alert3{
+    border: 1px solid #FFA800;
+    opacity: 1;
+    color: #FFA800;
+}
+#alert4{
+    border: 1px solid #00AF27;
+    opacity: 1;
+    color: #00AF27;
+}
+#upload{
+    width: 124px;
+    height: 36px;
+    border: 1px solid #C8242F;
+    border-radius: 18px;
+    color: #C8242F;
+}
+#uploaditems{
+    color: #ADADAD;
+}
+.btn-primary{
+    width: 124px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    color: #FFFFFF;
+    border-color: #C8242F;
+}
+.btn-secondary{
+    width: 145px;
+    height: 44px;
+    /* UI Properties */
+    border: 1px solid #C8242F;
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    color: #C8242F;
+}
+.selected-tab{
+    color:#C8242F;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-bottom: #C8242F;
+}
+.unselected-tab{
+    border-width: 0px;
+    background-color: #FFFFFF;
+    color:#ADADAD;
+}
+.light-heading{
+    font: normal normal normal 15px/20px Roboto;
+    color:#ADADAD;
+}
+.table-data{
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+#file-upload{
+    width: 124px;
+    height: 36px;
+    border: 1px solid #C8242F;
+    border-radius: 18px;
+}
+input[type="radio"]:checked{
+    background-color: #C8242F;
+    color: white;
+    border: white;
+    box-shadow: none;
+    transition: 1ms;
+}
+input[type="checkbox"]:checked{
+    background: #C8242F;
+    color: white;
+    border: white;
+    box-shadow: none;
+    transition: 1ms;
+}
+.iconsize{
+    width: "25px";
+    height: "25px";
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+ 
+  /* Create an active/current tablink class */
+  .tab button.active {
+    color: #C8242F;
+    border-bottom: 2px;
+    border-color: #C8242F;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: 1px;
+  }
+  #viewall{
+    color:#C8242F;
+    text-decoration: none;
+  }
+  #buttonselected{
+    background-color: #FFF3F4;
+  }
+  input::file-selector-button {
+    color: #C8242F;
+    padding: 0.5em;
+    border: thin solid red;
+    border-radius: 23px;
+    background-color: white;
+}

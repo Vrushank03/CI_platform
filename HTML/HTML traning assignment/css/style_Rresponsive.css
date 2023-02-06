@@ -1,0 +1,193 @@
+.test {
+  width: 100%;
+  font: normal normal 300 40px/47px Roboto;
+  
+}
+
+.test2{
+    color: red;
+    font-weight: bo;
+}
+.analysis_text{
+  width: 200px;
+  height: 39px;
+  text-align: left;
+  font: normal normal normal 30px/39px Roboto;
+  letter-spacing: 0px;
+  color: #1e1a1a;
+  margin-left: 45px;
+  font-size: 50px;
+  margin-top:15px;}
+
+.name{
+
+  text-align: left;
+  font: normal normal normal 22px/29px Roboto;
+  letter-spacing: 0px;
+  color: #3E3E3E;
+  font-size: 22px;
+  margin-top: 30px;
+}
+.text{
+  text-align: justify;
+  font: normal normal normal 15px/24px Roboto;
+  letter-spacing: 0px;
+  color: #3E3E3E;
+  width: 95%;
+  margin-top: 10px;
+  margin-left: 45px;
+}
+@media only screen and (max-width: 788px) {
+  /* for login page*/
+  .row_main {
+    background: #fafafa 0% 0% no-repeat padding-box;
+  }
+  .hero_div {
+    padding: 5% 16%;
+  }
+  .account {
+    padding-top: 2%;
+  }
+  .text_div {
+    width: 100%;
+    padding-top: 2%;
+  }
+  .text {
+  }
+  .username {
+    padding-top: 2%;
+    width: 100%;
+  }
+  .button_div {
+    padding-top: 2%;
+  }
+  .forget_text {
+    padding-top: 3%;
+  }
+  /* for Inner page*/
+  .header_row_innerpage{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    padding: 5%;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 789px) {
+  /* for login page*/
+  .row_main {
+    background: #fafafa 0% 0% no-repeat padding-box;
+  }
+  .hero_div {
+    padding: 5% 16%;
+  }
+  .account {
+    padding-top: 2%;
+  }
+  .text_div {
+    width: 100%;
+    padding-top: 2%;
+  }
+  .username {
+    padding-top: 2%;
+    width: 100%;
+  }
+  .button_div {
+    padding-top: 2%;
+  }
+  .forget_text {
+    padding-top: 3%;
+  }
+  /* for Inner page*/
+  .header_row_innerpage{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    padding: 3%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* for login page*/
+  .row_main {
+    background: #fafafa 0% 0% no-repeat padding-box;
+  }
+  .hero_div {
+    padding: 10% 7%;
+  }
+  .content_div {
+    padding-top: 11%;
+  }
+  .logo {
+    padding-top: 40%;
+  }
+  .text_div {
+    width: 55%;
+    padding-top: 2%;
+  }
+  .account {
+    padding-top: 2%;
+  }
+  .username {
+    width: 55%;
+    padding-top: 2%;
+  }
+  .button_div {
+    padding-top: 2%;
+  }
+  .forget_text {
+    padding-top: 3%;
+  }
+  /* for Inner page*/
+  .header_row_innerpage{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    padding: 2%;
+  }
+  
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* for login page*/
+  .row_main {
+    background: #fafafa 0% 0% no-repeat padding-box;
+  }
+  .hero_div {
+    padding: 10% 7%;
+  }
+  .content_div {
+    padding-top: 11%;
+  }
+  .logo {
+    padding-top: 40%;
+  }
+  .text_div {
+    width: 55%;
+    padding-top: 2%;
+  }
+  .account {
+    padding-top: 2%;
+  }
+  .username {
+    width: 55%;
+    padding-top: 2%;
+  }
+  .button_div {
+    padding-top: 2%;
+  }
+  .forget_text {
+    padding-top: 3%;
+  }
+  /* for Inner page*/
+  .header_row_innerpage{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    padding: 2%;
+  }
+  .logo{
+    width: 142px;
+    height: 30px;
+  }
+  
+
+}
+

@@ -1,0 +1,369 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_inner.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style_Rresponsive.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <i class="fs-4"><img src="images/menu-bar.svg" height="19x" width="19px" alt=""></i>
+                        <span class="fs-5 d-none d-sm-inline" style="padding: 5%;">
+                            <img src="images/header-logo.svg " alt="" style="padding: 8%">
+                        </span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item" id="buttonselected">
+                            <a href="dashboard.html" class="nav-link align-middle px-0 m-2 ">
+                                <button class="btn " type="button">
+                                <i class="fs-4"><img src="images/dashboard-active.svg" height="13px" width="16px" alt=""></i> 
+                                <span class="ms-1 d-none d-sm-inline" style="color:#C8242F;">
+                                    Dashboard
+                                </span>
+                            </button>
+                            </a>
+                        </li>
+                        <li class="nav-item" >
+                            <a href="inner_page _responsive.html" class="nav-link align-middle px-0 m-2" >
+                                <button class="btn max-width" type="button">
+                                <i class="fs-4"><img src="images/graph-default.svg" height="13px" width="16px" alt="" ></i> 
+                                <span class="ms-1 d-none d-sm-inline" style="color:#3E3E3E;">
+                                    Analysis
+                                </span>
+                            </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0 m-2 ">
+                                <button class="btn" type="button">
+                                <i class="fs-4"><img src="images/inbox-default.svg" height="13px" width="16px" alt=""></i> 
+                                <span class="ms-1 d-none d-sm-inline" style="color:#3E3E3E;">
+                                    Indox
+                                </span>
+                            </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0 m-2 ">
+                                <button class="btn" type="button">
+                                <i class="fs-4"><img src="images/clock-default.svg" height="13px" width="16px" alt=""></i> 
+                                <span class="ms-1 d-none d-sm-inline" style="color:#3E3E3E;">
+                                    History
+                                </span>
+                            </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0 m-2 ">
+                                <button class="btn" type="button">
+                                <i class="fs-4"><img src="images/user-default.svg" height="13px" width="16px" alt=""></i> 
+                                <span class="ms-1 d-none d-sm-inline" style="color:#3E3E3E;">
+                                    Users
+                                </span>
+                            </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0 m-2 ">
+                                <button class="btn" type="button">
+                                <i class="fs-4"><img src="images/maintenance-default.svg" height="13px" width="16px" alt=""></i> 
+                                <span class=" d-none d-sm-inline" style="color:#3E3E3E;" >
+                                    Maintainance
+                                </span>
+                            </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0 m-2 ">
+                                <button class="btn" type="button">
+                                <i class="fs-4"><img src="images/setting-default.svg" height="13px" width="16px" alt=""></i> 
+                                <span class="ms-1 d-none d-sm-inline" style="color:#3E3E3E;" >
+                                    Setting
+                                </span>
+                                </button>
+                            </a>
+                        </li>
+                    </ul>    
+                </div>
+            </div>
+            <div class="col py-2">
+                <div class="row" style="padding: inherit;">
+                    <div class="col-md-1" style="align-self: center;">
+                        <img src="images/search-icon.svg" style="height: 25px; width: 25px;" alt="">
+                    </div>
+                    <div class="col-md-4" style="align-self: center;">
+                        <input class="form-control" type="text" name="search" placeholder="Search" id=""style="border: 0px;">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col" style="align-self: center;">
+                                <img src="images/notification-icon.svg" alt="">
+                            </div>
+                            <div class="col" style="align-self: center;">
+                                <img src="images/profile.png" alt="">
+                            </div>
+                            <div class="col" style="align-self: center;">
+                                <div class="btn-group">
+                                    <button class="btn btn-secondary btn-sm dropdown-toggle" id="ddropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      John Doe
+                                    </button>
+                                    <div class="dropdown-menu">
+                                      ...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                    <H1>Dashboard</H1>
+          <br>
+          <br>
+            <div class="row" id="property1">
+              <div class="col-md-2 col-sm-6 col-6" >
+                <div class="row">
+                  <div class="col-lg-3 ">
+                    <img src="images/star.svg"  alt="" id="star">
+                  </div>
+                  <div class="col">
+                    <span>
+                      <h4>
+                        23,456
+                      </h4>
+                    </span>
+                    New Products
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6 col-6">
+                <div class="row">
+                  <div class="col-lg-3 ">
+                    <img src="images/new-product.svg"  alt="" id="add">
+                  </div>
+                  <div class="col">
+                    <span>
+                      <h4>
+                        2345
+                      </h4>
+                    </span>
+                    
+                    Added Products
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6 col-6">
+                <div class="row">
+                  <div class="col-lg-3 ">
+                    <img src="images/total-product.svg" alt="" id="total">
+                  </div>
+                  <div class="col">
+                    <span>
+                      <h4>
+                        32,456
+                      </h4>
+                    </span>
+                    Total Products  
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6 col-6">
+                <div class="row">
+                  <div class="col-lg-3 ">
+                    <img src="images/dollar-filled.svg"  alt="" id="dollar">
+                  </div>
+                  <div class="col">
+                    <span>
+                      <h4>
+                        5678
+                      </h4>
+                    </span> 
+                    Today's Sale
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6 col-6">
+                <div class="row">
+                  <div class="col-lg-3  ">
+                    <img src="images/money-bag.svg"  alt="" id="bag">
+                  </div>
+                  <div class="col">
+                    <span>
+                      <h4>
+                        33,5342 
+                      </h4>
+                    </span>
+                    Total Sale
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <br><br><br>
+            <div class="row">
+              <div class=" col-xs-12 col-sm-10 col-md-8">
+                <h3>Sales</h3>
+                <img src="images/data-graph.png"  class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <h3>Sales by country</h3>
+                <img src="images/pie-chart.svg"  class="img-fluid">
+                <div class="row">
+                  <div class="col">
+                    <button type="button" id="red"></button>
+                    <span class="p">United States of America</span>
+                  </div>
+                  <div class="col">
+                    <button type="button" id="green"></button>
+                    <span class="p">Canada</span> 
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button type="button" id="orange"></button>
+                    <span class="p">Russia</span>
+                  </div>
+                  <div class="col">
+                    <button type="button" id="yellow"></button>
+                    <span class="p">India</span> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+              <div class="col" >
+                <h3>Invoices</h3>
+              </div>
+              <div class="col" id="viewall">
+                <div class="row">
+                  <div class="col " id="viewall">
+                    <a href="notfound.html">View All</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br><br>
+            <div class="table-responsive">
+              <table class="table">
+              <thead>
+                <tr class="light-heading"> 
+                  <th scope="col">INVOICE</th>
+                  <th scope="col">COMPANY NAME </th>
+                  <th scope="col">EMAIL</th>
+                  <th scope="col">DUE DATE</th>
+                  <th scope="col">STATUS</th>
+                  <th scope="col">AMOUNT </th> 
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-data">
+                  <th scope="row">651535</th>
+                  <td>Public Adjusting Firm </td>
+                  <td>georgia.young@example.com</td>
+                  <td>24 May, 2020</td>
+                  <td>
+                    <button type="button" id="paid1">Paid</button>
+                  </td> 
+                  <td>$47,800</td>
+                </tr>
+                <tr class="table-data">
+                  <th scope="row">558612</th>
+                  <td>other</td>
+                  <td>jessica.hanson@example.com</td>
+                  <td>24 May, 2020</td>
+                  <td>
+                    <button type="button" id="paid2">Paid</button>
+                  </td> 
+                  <td>$98,000</td>
+                </tr>
+                <tr class="table-data">
+                  <th scope="row">558612</th>
+                  <td>vendor</td>
+                  <td>alma.lawson@example.com</td>
+                  <td>8 Sep, 2020</td>
+                  <td>
+                    <button type="button" id="paid3">Paid</button>
+                  </td> 
+                  <td>$20,900</td>
+                </tr>
+                <tr class="table-data">
+                  <th scope="row">558612</th>
+                  <td>Property Management Company</td>
+                  <td>kenzi.lawson@example.com</td>
+                  <td>22 Oct, 2020</td>
+                  <td>
+                    <button type="button" id="paid4">Paid</button>
+                  </td> 
+                  <td>$10,570</td>
+                </tr>
+                <tr class="table-data">
+                  <th scope="row">449003</th>
+                  <td>Insurance Carrier</td>
+                  <td>curtis.weaver@example.com</td>
+                  <td>21 Sep, 2020</td>
+                  <td>
+                    <button type="button" id="failed1">Failed</button>
+                  </td> 
+                  <td>$11,170</td>
+                </tr>
+                <tr class="table-data">
+                  <th scope="row">267400</th>
+                  <td>Fire Department</td>
+                  <td>nevaeh.simmons@example.com</td>
+                  <td>17 Oct, 2020</td>
+                  <td>
+                    <button type="button" id="pending">Pending</button>
+                  </td> 
+                  <td>$28,000</td>
+                </tr>
+                <tr class="table-data">
+                  <th scope="row">487441</th>
+                  <td>Insurance Carrier</td>
+                  <td>curtis.weaver@example.com</td>
+                  <td>21 Sep, 2020</td>
+                  <td>
+                    <button type="button" id="paid5">Paid</button>
+                  </td> 
+                  <td>$10,000</td>
+                </tr>
+                <tr class="table-data">
+                  <th scope="row">651535</th>
+                  <td>Public Adjusting Firm </td>
+                  <td>georgia.young@example.com</td>
+                  <td>24 May, 2020</td>
+                  <td>
+                    <button type="button" id="failed2">Failed</button>
+                  </td> 
+                  <td>$28,500</td>
+                </tr>
+                <tr class="table-data">
+                  <th scope="row">449003</th>
+                  <td>Insurance Carrier</td>
+                  <td>curtis.weaver@example.com</td>
+                  <td>21 Sep, 2020</td>
+                  <td>
+                    <button type="button" id="paid6">Paid</button>
+                  </td> 
+                  <td>$10,000</td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
